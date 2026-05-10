@@ -1,0 +1,21 @@
+# Data & logs
+*.log
+data/
+grafana-data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Results (we'll track these selectively)
+loadtest/results/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
