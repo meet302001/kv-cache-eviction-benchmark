@@ -12,6 +12,10 @@ venv/
 # Results (we'll track these selectively)
 loadtest/results/*.csv
 
+# Node
+node_modules/
+dist/
+
 # OS
 .DS_Store
 Thumbs.db
